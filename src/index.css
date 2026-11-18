@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 
+/* 폴더블 커버화면처럼 세로가 짧은 화면 */
+@custom-variant short (@media (max-height: 560px));
+
 html,
 body {
   background: var(--color-stone-100);
